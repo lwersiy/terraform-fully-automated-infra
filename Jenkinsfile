@@ -10,7 +10,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning project codebase...'
-                git branch: 'main', url: 'https://github.com/lwersiy/devops-fully-automated-infra.git'
+                git branch: 'main', url: 'https://github.com/lwersiy/terraform-fully-automated-infra.git'
                 sh 'ls'
             }
         }
